@@ -48,7 +48,7 @@ The system is structured as three interconnected workflows, each responsible for
 2. **The Observability Sidecar:** Captures errors globally and sends alerts with execution context.
 3. **The Reporting Engine:** Aggregates pipeline activity and sends daily summaries.
 
-![Architecture Diagram](./assets/architecture.png)
+![Architecture Diagram](./assets/main.PNG)
 
 ---
 
@@ -85,6 +85,8 @@ The system is structured as three interconnected workflows, each responsible for
 ---
 
 ## 🗄️ Data Modeling: Medallion Architecture
+
+![Model Diagram](./assets/model.png)
 
 To ensure reliability and idempotency, the system was designed using a simplified Kimball-style data model.
 
