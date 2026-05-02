@@ -86,7 +86,7 @@ The system is structured as three interconnected workflows, each responsible for
 
 ## 🗄️ Data Modeling: Medallion Architecture
 
-![Model Diagram](./assets/new.png)
+![Model Diagram](./assets/med.png)
 
 To ensure reliability and idempotency, the system was designed using a simplified Kimball-style data model.
 
